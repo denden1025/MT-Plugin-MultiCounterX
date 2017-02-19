@@ -43,7 +43,7 @@ URI::Escape
 画像フレームの大きさを１つ定義し、その中に３種類のメッセージを表示します。  
 各メッセージの意味は下記です。  
 You can define only blog level setting.There aren't system level setting.  
-2 messages are displayed in a picture frame.
+3 messages are displayed in a picture frame.
 
 - メッセージ１（Messages1）  
 昨日のアクセス数・今日のアクセス数・合計アクセス数の３つの値を含めることができるメッセージ  
