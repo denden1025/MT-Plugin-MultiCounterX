@@ -1,4 +1,4 @@
-# MT Plugin MuliCounterX Readme
+# MT Plugin MultiCounterX Readme
 ### update：2017/2/18
 ---
 ## 概要（Overview）
