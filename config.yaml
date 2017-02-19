@@ -1,0 +1,99 @@
+id: MultiCounterX
+key: MultiCounterX
+name: <__trans phrase="MultiCounterX">
+version: 1.00
+description: <__trans phrase="_PLUGIN_DESCRIPTION">
+author_name: <__trans phrase="_PLUGIN_AUTHOR">
+author_link: http://www.webkoza.com/
+doc_link: http://www.webkoza.com/doc3/multicounterx-1/about-multicounterx-plugin.html
+l10n_class: MultiCounterX::L10N
+
+applications:
+  multicounterx:
+    handler: MultiCounterX
+    script: $MultiCounterX::MultiCounterX::script
+    cgi_path: $MultiCounterX::MultiCounterX::cgi_path
+
+blog_config_template: mc_setting_blog.tmpl
+settings:
+    MCFontfile:
+       default: /usr/share/fonts/vlgothic/VL-Gothic-Regular.ttf
+       scope: blog
+    MCCGIURL:
+       default: /mt/plugins/MultiCounterX/mcounterx.cgi
+       scope: blog
+    SESTIMEOUT:
+        default: 900
+        scope: blog
+    UNAMEVAL:
+        default: mcxowner
+        scope: blog
+    OWNERPASS:
+        default: password
+        scope: blog
+    XSIZE:
+        default: 360
+        scope: blog
+    YSIZE:
+        default: 51
+        scope: blog
+    FILLCOLOR:
+        default: 255,255,255
+        scope: blog
+    BORDERCOLOR:
+        default: 255,255,255
+        scope: blog
+    SIZE:
+        default: 10
+        scope: blog
+    M1:
+        default: Visits Today:%s Yesterday:%s Total:%s
+        scope: blog
+    M1COLOR:
+        default: 102,10,54
+        scope: blog
+    M1XPOS:
+        default: 2
+        scope: blog
+    M1YPOS:
+        default: 12
+        scope: blog
+    M2A:
+        default: Thanks %s vists
+        scope: blog
+    M2ACOLOR:
+        default: 80,80,80
+        scope: blog
+    M2B:
+        default: You are visiting %s times
+        scope: blog
+    M2BCOLOR:
+        default: 6,79,154
+        scope: blog
+    M2XPOS:
+        default: 2
+        scope: blog
+    M2YPOS:
+        default: 27
+        scope: blog
+    M3:
+        default: Other %s people are visiting
+        scope: blog
+    M3COLOR:
+        default: 11,59,28
+        scope: blog
+    M3XPOS:
+        default: 2
+        scope: blog
+    M3YPOS:
+        default: 42
+        scope: blog
+    AnalysisProgram:
+        default:
+        scope: blog
+    DoAnalysis:
+        default: 1
+        scope: blog
+tags:
+    function:
+        CounterMessagesX: $MultiCounterX::MultiCounterX::Tags::_hdlr_counter_output
