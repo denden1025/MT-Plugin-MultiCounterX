@@ -238,7 +238,7 @@ HTTP_REFERER,HTTP_VIA
 HTTP_FORWARDED  
 
 ## コピーライト（Copyright）
-Copyright (C) 2017 Tsutomu Igarashi (www.webkoza.com) All Rights Reserved.  
+Copyright (C) 2017 Tsutomu Igarashi (https://webkoza.mydns.jp/) All Rights Reserved.  
 
 ## 許諾（License）
 MIT License
